@@ -9,7 +9,7 @@ require('dotenv').config();
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
 const model = "whisper-1";
 const cors = require('cors');
-const ytdl = require('ytdl-core');
+const ytdl = require("@distube/ytdl-core");
 
 // Use bodyParser middleware to parse JSON in the request body
 app.use(bodyParser.json());
